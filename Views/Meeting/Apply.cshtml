@@ -3,8 +3,30 @@
     Layout = "_Layout2";
 }
 
-<h1 class="h4">Toplantı katılım formu</h1>
-<form action="">
+<h1 class="h4 text-center">Toplantı katılım formu</h1>
+<form method="post">
+    <div class="mb-3">
+        <label for="Name" class="form-label"> Name</label>
+        <input type="text" name="Name" id="Name" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label for="Phone" class="form-label"> Phone</label>
+        <input type="text" name="Phone" id="Phone" class="form-control">
+    </div>
+    </div>
+    <div class="mb-3">
+        <label for="Email" class="form-label"> Email</label>
+        <input type="email" name="Email" id="Email" class="form-control">
+    </div>
+    </div>
+    <div class="mb-3">
+        <label for="WillAtend" class="form-label"> will you join?</label>
+        <select name="WillAtend" id="WillAtend" class="form-select">
+            <option value="null">Select</option>
+            <option value="true">Yes, I do</option>
+            <option value="false">No, I dont</option>
+        </select>
+    </div>
     <button class="btn btn-primary" type="submit">Kaydet
     </button>
 </form>
