@@ -26,3 +26,5 @@ C:\Users\seherst\Desktop\MeetingApp\obj\Debug\net7.0\MeetingApp.genruntimeconfig
 C:\Users\seherst\Desktop\MeetingApp\obj\Debug\net7.0\ref\MeetingApp.dll
 C:\Users\seherst\Desktop\MeetingApp\obj\Debug\net7.0\MeetingApp.RazorAssemblyInfo.cache
 C:\Users\seherst\Desktop\MeetingApp\obj\Debug\net7.0\MeetingApp.RazorAssemblyInfo.cs
+C:\Users\seherst\Desktop\MeetingApp\bin\Debug\net7.0\libman.json
+C:\Users\seherst\Desktop\MeetingApp\bin\Debug\net7.0\MeetingApp.staticwebassets.runtime.json
