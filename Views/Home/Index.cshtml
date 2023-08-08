@@ -1,8 +1,11 @@
+@model string
+
 @{
-    Layout = "_Layout2";
+    ViewBag.Title
+    = "Başvuru Bilgisi";
 }
 
 
-<h1 class="h4">Merhaba</h1>
+<h1 class="h4">@ViewData["IndexText"]</h1>
 <p>Toplantı katılım durumunuzu bildiriniz</p>
 <a class="btn btn-sm btn-outline-primary" asp-controller="Meeting" asp-action="Apply">Başvuru yap</a>
