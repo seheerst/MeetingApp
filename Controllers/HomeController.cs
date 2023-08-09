@@ -11,7 +11,7 @@ namespace MeetingApp.Controllers
         {
             int saat = DateTime.Now.Hour;
 
-            // ViewBag.IndexText = saat > 12 ? "İyi Günler" : "Günaydın";
+            int userCount = Repository.Users.Where(i => i.WillAttend == true).Count();
 
             ViewData["IndexText"] = saat > 12 ? "İyi Günler" : "Günaydın";
 
@@ -20,7 +20,7 @@ namespace MeetingApp.Controllers
                 Id = 1,
                 Location = "İstanbul",
                 Date = new DateTime(2024, 01, 20, 20, 0, 0),
-                NumberOfPeople = 100,
+                NumberOfPeople = userCount,
             };
             return View(meetingInfo);
         }
